@@ -4,7 +4,7 @@ def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
 
 def display_board(board):
-    clear_screen(wait=True)
+    clear_screen()
     print(board[7]+'|'+board[8]+'|'+board[9])
     print("-+-+-")
     print(board[4]+'|'+board[5]+'|'+board[6])
